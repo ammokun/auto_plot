@@ -1,0 +1,143 @@
+\documentclass{jsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{ascmac}
+\usepackage{physics}
+%
+\setlength{\textwidth}{\fullwidth}
+\setlength{\textheight}{40\baselineskip}
+\addtolength{\textheight}{\topskip}
+\setlength{\voffset}{-0.2in}
+\setlength{\topmargin}{0pt}
+\setlength{\headheight}{0pt}
+\setlength{\headsep}{0pt}
+%
+\pagestyle{empty}
+   \title{計算データ}
+   \author{C0TM11630 Soichiro Suzuki}
+   \date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{figure}[htbp]
+    \begin{center}
+    \begin{tabular}{cc}
+
+       \begin{minipage}{0.5\hsize}
+       \begin{center}
+          \includegraphics[width=90mm]{./temp_fig/work210330_170_020_00170_main_tetg.eps}
+          \hspace{1.6 cm} 
+       \end{center}
+       \end{minipage}
+    
+       \begin{minipage}{0.5\hsize}
+          \begin{center}
+             \includegraphics[width=90mm]{temp_fig/work210330_170_020_00170_main_tetg_detail.eps}
+          \end{center}
+       \end{minipage}
+       \\
+       \begin{minipage}{0.5\hsize}
+        \begin{center}
+           \includegraphics[width=90mm]{./temp_fig/work210330_170_020_00170_main_electronrate.eps}
+           \hspace{1.6 cm} 
+        \end{center}
+        \end{minipage}
+     
+        \begin{minipage}{0.5\hsize}
+           \begin{center}
+              \includegraphics[width=90mm]{temp_fig/work210330_170_020_00170_main_electronrate_detail.eps}
+           \end{center}
+        \end{minipage}
+        \\
+        \begin{minipage}{0.5\hsize}
+            \begin{center}
+               \includegraphics[width=90mm]{./temp_fig/work210330_170_020_00170_main_energy.eps}
+               \hspace{1.6 cm} 
+            \end{center}
+            \end{minipage}
+         
+            \begin{minipage}{0.5\hsize}
+               \begin{center}
+                  \includegraphics[width=90mm]{temp_fig/work210330_170_020_00170_main_energy_detail.eps}
+               \end{center}
+            \end{minipage}
+    
+    \end{tabular}
+    \end{center}
+    \label{fig:upwind}
+    \clearpage
+   \end{figure}
+
+   \begin{figure}[htbp]
+    \begin{center}
+    \begin{tabular}{cc}
+
+
+       \begin{minipage}{0.5\hsize}
+          \begin{center}
+             \includegraphics[width=90mm]{temp_fig/work210330_170_020_00170_den_main_n2.eps}
+
+          \end{center}
+          \end{minipage}
+       
+          \begin{minipage}{0.5\hsize}
+             \begin{center}
+                \includegraphics[width=90mm]{temp_fig/work210330_170_020_00170_den_main_n2_detail.eps}
+
+             \end{center}
+       \end{minipage}
+
+       \\
+       \begin{minipage}{0.5\hsize}
+        \begin{center}
+           \includegraphics[width=90mm]{temp_fig/work210330_170_020_00170_den_main_o2.eps}
+
+        \end{center}
+        \end{minipage}
+     
+        \begin{minipage}{0.5\hsize}
+           \begin{center}
+              \includegraphics[width=90mm]{temp_fig/work210330_170_020_00170_den_main_o2_detail.eps}
+
+           \end{center}
+     \end{minipage}
+
+     \\
+       \begin{minipage}{0.5\hsize}
+        \begin{center}
+           \includegraphics[width=90mm]{temp_fig/work210330_170_020_00170_den_ion.eps}
+
+        \end{center}
+        \end{minipage}
+     
+        \begin{minipage}{0.5\hsize}
+           \begin{center}
+              \includegraphics[width=90mm]{temp_fig/work210330_170_020_00170_den_ion_detail.eps}
+
+           \end{center}
+     \end{minipage}
+
+     \\
+       \begin{minipage}{0.5\hsize}
+          \begin{center}
+             \includegraphics[width=90mm]{temp_fig/work210330_170_020_00170_reac_ion.eps}
+          \end{center}
+          \end{minipage}
+       
+          \begin{minipage}{0.5\hsize}
+             \begin{center}
+                \includegraphics[width=90mm]{temp_fig/work210330_170_020_00170_reac_ion_detail.eps}
+
+             \end{center}
+       \end{minipage}
+    
+    \end{tabular}
+    \end{center}
+    \label{fig:upwind}
+   \end{figure}
+
+
+
+\end{document}
